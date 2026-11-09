@@ -1,0 +1,7 @@
+inventory_code,site_code,unit_number,category,material,description,found_on
+EJ001-0001,EJ-001,2,Cerámica,Barro cocido,Fragmento de borde de jarra,2026-03-12
+EJ001-0002,EJ-001,5,Cerámica,Barro cocido,Fragmento de cerámica común,2026-03-14
+EJ001-0003,EJ-001,5,Metal,Hierro,Clavo,2026-03-14
+EJ001-0004,EJ-001,4,Lítico,Piedra,Mortero fragmentado,2026-03-20
+EJ002-0001,EJ-002,3,Vidrio,Vidrio,Fragmento de ungüentario,2026-04-02
+EJ002-0002,EJ-002,2,Moneda,Bronce,Moneda ilegible,2026-04-03

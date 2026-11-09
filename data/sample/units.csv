@@ -1,0 +1,10 @@
+site_code,number,kind,description,period
+EJ-001,1,deposit,Capa superficial,Contemporáneo
+EJ-001,2,deposit,Relleno de nivelación,Medieval
+EJ-001,3,cut,Fosa de cimentación,Medieval
+EJ-001,4,structure,Muro de mampostería,Medieval
+EJ-001,5,deposit,Nivel de ocupación,Romano
+EJ-001,6,deposit,Estrato geológico natural,
+EJ-002,1,deposit,Capa vegetal,Contemporáneo
+EJ-002,2,structure,Suelo de cal,Romano
+EJ-002,3,deposit,Relleno de zanja,Romano
