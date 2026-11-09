@@ -7,11 +7,12 @@ def database_url() -> str:
     if url:
         return url
     user = os.environ.get("POSTGRES_USER", "arqueo")
-    password = os.environ.get("POSTGRES_PASSWORD", "arqueo")
+    password = os.environ.get("POSTGRES_PASSWORD", "")  # sin valor por defecto: se define en .env
     host = os.environ.get("POSTGRES_HOST", "localhost")
     port = os.environ.get("POSTGRES_PORT", "5432")
     name = os.environ.get("POSTGRES_DB", "arqueo")
-    return f"postgresql+psycopg://{user}:{password}@{host}:{port}/{name}"
+    credentials = f"{user}:{password}" if password else user
+    return f"postgresql+psycopg://{credentials}@{host}:{port}/{name}"
 
 
 DATA_LICENSE = os.environ.get("DATA_LICENSE", "CC-BY-4.0")
